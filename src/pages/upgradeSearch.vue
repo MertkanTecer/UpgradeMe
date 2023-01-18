@@ -31,12 +31,8 @@ const itemList = computed(() => {
   return items;
 });
 const addItem = () => {
-  console.log(selectedItem.value);
   const newItem = selectedItem.value;
   store.dispatch("addItem", newItem);
-};
-const anan = () => {
-  console.log("anan");
 };
 </script>
 

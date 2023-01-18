@@ -26,12 +26,10 @@ export default {
    addScroll(state)
    {
       state.isScrollSlotted = true
-      console.log(state.isScrollSlotted);
    },
    removeScroll(state)
    {
       state.isScrollSlotted = false
-      console.log(state.isScrollSlotted);
    }
 
 }
