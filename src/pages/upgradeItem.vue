@@ -69,7 +69,7 @@ const isnewItemHovered = ref(false);
 const store = useStore();
 
 const upgradeItem = (item) => {
-  if (item && item.rate < 5) {
+  if (item && item.rate < 5 && progressing.value == false) {
     isActive.value = true;
     store.state.progressing = true;
     setTimeout(() => {

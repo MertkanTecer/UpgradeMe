@@ -37,7 +37,6 @@ const hoveredItem = ref({});
 const store = useStore();
 const showinfo = (item) => {
   if (getItem.value == null && getUpgradedItem.value == null) {
-    console.log(item);
     store.dispatch("removeItem", item);
     store.dispatch("placeItem", item);
     isHovered.value = false;
