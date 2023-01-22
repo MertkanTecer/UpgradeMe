@@ -102,4 +102,9 @@ header {
     justify-content: space-between;
   }
 }
+@media screen and (max-width: 378px) {
+  .navigation__link {
+    font-size: var(--small-font-size);
+  }
+}
 </style>

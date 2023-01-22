@@ -74,4 +74,10 @@ const addItem = () => {
   color: #fff;
   font-size: var(--h3-font-size);
 }
+
+@media screen and (max-width: 378px) {
+  .item__name--search {
+    width: 100%;
+  }
+}
 </style>

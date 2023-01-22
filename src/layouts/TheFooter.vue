@@ -13,7 +13,6 @@
   width: 100%;
   text-align: center;
   background-color: var(--first-color-lighter);
-  padding: 1rem;
   font-size: var(--small-font-size);
 }
 </style>
